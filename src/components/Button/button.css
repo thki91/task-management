@@ -1,0 +1,7 @@
+.tooltip .tooltiptext {
+  top: 40px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
