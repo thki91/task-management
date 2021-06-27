@@ -1,6 +1,8 @@
 # Task management tool
 
-This project implements a really simple task management tool that shows a list of tasks. The user can either mark tasks as done (as long as they're not overdue) or create new tasks. 
+This project implements a really simple task management tool that shows a list of tasks. The user can either mark tasks as done (as long as they're not overdue) or create new tasks.
+
+**Demo: [https://task-management-t91.herokuapp.com](https://task-management-t91.herokuapp.com)**
 
 ## Considerations & Trade-offs
 

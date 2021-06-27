@@ -78,9 +78,9 @@ function App() {
         handleSubmit={e => { handleSubmit(e) }} />}
 
         {!showAddTaskForm &&
-        <div className="cursor-pointer flex items-center mt-10">
+        <div className="cursor-pointer flex items-center mt-10" onClick={() => setShowAddTaskForm(true)}>
           <Icon name="add" />
-          <p className="ml-2 font-semibold" onClick={() => setShowAddTaskForm(true)}>Add Task</p>
+          <p className="ml-2 font-semibold">Add Task</p>
         </div>
         }
       </main>
